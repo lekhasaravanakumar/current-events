@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Global AI News</title>
+  <desc id="desc">A playful illustration of a robot news anchor reporting global news from behind a newspaper desk.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff7ff"/>
+      <stop offset="1" stop-color="#fff4d7"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#40d6c5"/>
+      <stop offset="1" stop-color="#158fb9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#17324d" flood-opacity=".18"/>
+    </filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#17324d" opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+
+  <g fill="#ffc857" opacity=".9">
+    <path d="M102 118h34v-34h18v34h34v18h-34v34h-18v-34h-34z"/>
+    <path d="M1027 178h25v-25h14v25h25v14h-25v25h-14v-25h-25z"/>
+  </g>
+
+  <g transform="translate(70 62) rotate(-4)" filter="url(#shadow)">
+    <rect width="410" height="160" rx="18" fill="#fffdf7" stroke="#17324d" stroke-width="7"/>
+    <path d="M32 48h346" stroke="#ff6659" stroke-width="8"/>
+    <text x="32" y="38" font-family="sans-serif" font-weight="900" font-size="25" fill="#17324d">THE DAILY GIGGLE</text>
+    <text x="32" y="91" font-family="sans-serif" font-weight="900" font-size="34" fill="#17324d">BREAKING:</text>
+    <text x="32" y="128" font-family="sans-serif" font-weight="800" font-size="26" fill="#158fb9">ROBOT KNOWS EVERYTHING</text>
+    <circle cx="352" cy="112" r="20" fill="#ffc857" stroke="#17324d" stroke-width="5"/>
+    <path d="M342 109q10 9 20 0M343 101h1M361 101h1" fill="none" stroke="#17324d" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(820 64) rotate(6)" filter="url(#shadow)">
+    <path d="M0 54q120-80 242 0v84H0z" fill="#ff6659" stroke="#17324d" stroke-width="7"/>
+    <text x="28" y="105" font-family="sans-serif" font-weight="900" font-size="30" fill="#fffdf7">WORLD WIDE</text>
+    <text x="36" y="137" font-family="sans-serif" font-weight="900" font-size="30" fill="#fffdf7">WOW!</text>
+    <path d="M28 31h185" stroke="#ffc857" stroke-width="10"/>
+  </g>
+
+  <g transform="translate(600 255)" filter="url(#shadow)">
+    <circle r="194" fill="url(#globe)" stroke="#17324d" stroke-width="9"/>
+    <path d="M-155-68q82-42 161-6t149-29M-177 19q110-49 198 3t145-14M-115 127q72-43 136-16t125-16" fill="none" stroke="#a8f3df" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+    <path d="M-62-174q-22 92 5 174t-14 171M52-181q-31 87-9 176t-2 174M-186-7q84-26 182-3t191-8" fill="none" stroke="#a8f3df" stroke-width="7" opacity=".75"/>
+    <path d="M-185 0h370M0-190v380" stroke="#e8fff8" stroke-width="3" opacity=".6"/>
+    <g fill="#ffc857" stroke="#17324d" stroke-width="5">
+      <path d="M-95-34l-12-25 15-17 31 10 12 28-19 17z"/>
+      <path d="M52 34l26-18 35 17 7 33-33 18-30-18z"/>
+      <path d="M-26 83l27-17 26 19-5 37-33 10-20-21z"/>
+    </g>
+    <path d="M0-222v29M0 193v29M-222 0h29M193 0h29" stroke="#ff6659" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(385 370)" filter="url(#shadow)">
+    <path d="M0 250h430v126H0z" fill="#ff6659" stroke="#17324d" stroke-width="9"/>
+    <path d="M-25 250h480" stroke="#17324d" stroke-width="14" stroke-linecap="round"/>
+    <text x="33" y="304" font-family="sans-serif" font-weight="900" font-size="30" fill="#fffdf7">GLOBAL NEWS DESK</text>
+    <text x="86" y="347" font-family="sans-serif" font-weight="800" font-size="22" fill="#ffc857">FACTS, FEELS &amp; FLYING ROBOTS</text>
+  </g>
+
+  <g transform="translate(600 400)" filter="url(#shadow)">
+    <path d="M-120 45q0-105 120-105t120 105v150H-120z" fill="#f5f8f3" stroke="#17324d" stroke-width="9"/>
+    <rect x="-94" y="-14" width="188" height="108" rx="38" fill="#17324d"/>
+    <circle cx="-45" cy="39" r="20" fill="#ffc857"/>
+    <circle cx="45" cy="39" r="20" fill="#ffc857"/>
+    <circle cx="-45" cy="39" r="7" fill="#17324d"/>
+    <circle cx="45" cy="39" r="7" fill="#17324d"/>
+    <path d="M-37 73q37 27 74 0" fill="none" stroke="#ff6659" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0-15v-38M0-53l22-20" fill="none" stroke="#17324d" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="25" cy="-73" r="13" fill="#ff6659" stroke="#17324d" stroke-width="6"/>
+    <path d="M-128 125l-75 65M128 125l75 65" stroke="#17324d" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="-210" cy="198" r="24" fill="#ffc857" stroke="#17324d" stroke-width="8"/>
+    <circle cx="210" cy="198" r="24" fill="#ffc857" stroke="#17324d" stroke-width="8"/>
+    <path d="M-43 195v68M43 195v68" stroke="#17324d" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-72 266h45M27 266h45" stroke="#ff6659" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(82 610)" filter="url(#shadow)">
+    <path d="M0 30q90-72 180 0v110H0z" fill="#fffdf7" stroke="#17324d" stroke-width="7"/>
+    <path d="M24 67h132M24 92h96M24 117h142" stroke="#158fb9" stroke-width="8" stroke-linecap="round"/>
+    <text x="20" y="28" font-family="sans-serif" font-weight="900" font-size="22" fill="#ff6659">ALERT!</text>
+  </g>
+  <g transform="translate(900 610) rotate(-7)" filter="url(#shadow)">
+    <rect width="220" height="132" rx="18" fill="#ffc857" stroke="#17324d" stroke-width="7"/>
+    <text x="22" y="43" font-family="sans-serif" font-weight="900" font-size="22" fill="#17324d">AI WEATHER</text>
+    <text x="22" y="82" font-family="sans-serif" font-weight="900" font-size="30" fill="#17324d">100% CHANCE</text>
+    <text x="22" y="115" font-family="sans-serif" font-weight="900" font-size="28" fill="#ff6659">OF UPDATES</text>
+  </g>
+
+  <text x="600" y="770" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="20" fill="#17324d" opacity=".65">TODAY'S HEADLINE: THE WORLD IS STILL TURNING, AND THE AI IS TAKING NOTES.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">World News</title>
+  <desc id="desc">A bold blue world news illustration with a globe, broadcast lines, and a playful newspaper airplane.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="78%"><stop stop-color="#1c75dc"/><stop offset=".62" stop-color="#073d9f"/><stop offset="1" stop-color="#031a4d"/></radialGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42dcca"/><stop offset="1" stop-color="#1279b8"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#001333" flood-opacity=".55"/></filter>
+    <pattern id="lines" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 2h18" stroke="#8fc8ff" stroke-width="2" opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#lines)"/>
+  <g fill="none" stroke="#061d55" stroke-width="7" stroke-linecap="round" opacity=".9">
+    <path d="M55 105h238M35 132h290M82 159h207M20 186h281M70 213h230"/>
+    <path d="M860 92h270M830 119h315M850 146h267M886 173h230M920 200h196"/>
+    <path d="M40 545h236M18 572h280M70 599h218M94 626h178"/>
+    <path d="M924 548h225M890 575h273M916 602h245M950 629h190"/>
+  </g>
+  <g transform="translate(600 365)" filter="url(#shadow)">
+    <circle r="220" fill="url(#ocean)" stroke="#fff" stroke-width="9"/>
+    <g fill="#ffd44e" stroke="#073d9f" stroke-width="6">
+      <path d="M-112-86l32-45 71 5 34 35-33 43-55-4-20 39-47-24z"/>
+      <path d="M54-61l62-30 64 37-27 49-50-5-21 43-44-22z"/>
+      <path d="M-54 30l53-19 39 38-14 61-47 30-39-44z"/>
+      <path d="M88 91l48-24 45 32-21 52-63 8-27-34z"/>
+    </g>
+    <path d="M-220 0h440M0-220v440M-160-150q70 150 0 300M160-150q-70 150 0 300" fill="none" stroke="#b5fff0" stroke-width="6" opacity=".7"/>
+    <path d="M0-258v30M0 228v30M-258 0h30M228 0h30" stroke="#ff4b5e" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(196 190) skewX(-7)" filter="url(#shadow)">
+    <rect width="808" height="126" fill="#e00032"/><rect y="113" width="808" height="13" fill="#77001c"/>
+    <text x="404" y="91" text-anchor="middle" font-family="Arial, sans-serif" font-size="84" font-style="italic" font-weight="900" fill="#fff">WORLD NEWS</text>
+  </g>
+  <g transform="translate(935 430) rotate(12)" filter="url(#shadow)">
+    <path d="M0 0l215-74-82 130-37-53z" fill="#fffdf3" stroke="#09265e" stroke-width="8"/>
+    <path d="M97 3l118-77-82 130" fill="none" stroke="#ff4b5e" stroke-width="8"/>
+    <path d="M23-4h69M38 20h48" stroke="#087bb4" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#b8e5ff">THE BIG PICTURE, FROM EVERYWHERE</text>
+</svg>

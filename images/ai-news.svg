@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">AI News</title>
+  <desc id="desc">A playful AI news illustration with a friendly robot anchor, circuit lines, and a breaking-news banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062b55"/><stop offset=".5" stop-color="#087b9c"/><stop offset="1" stop-color="#053b70"/></linearGradient>
+    <linearGradient id="bot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ff0d6"/><stop offset="1" stop-color="#22aeca"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#00182e" flood-opacity=".6"/></filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#a4f4ef" stroke-width="2" opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#grid)"/>
+  <g fill="none" stroke="#8ff6e2" stroke-width="5" opacity=".5">
+    <path d="M45 115h170v60h100v70h110"/><path d="M1155 121H980v74H880v65H760"/>
+    <path d="M30 610h180v-76h92v-64h104"/><path d="M1170 610H990v-76h-92v-64H794"/>
+  </g>
+  <g fill="#ffd04a"><circle cx="45" cy="115" r="10"/><circle cx="325" cy="245" r="10"/><circle cx="1155" cy="121" r="10"/><circle cx="760" cy="260" r="10"/><circle cx="30" cy="610" r="10"/><circle cx="1170" cy="610" r="10"/></g>
+  <g transform="translate(196 188) skewX(-7)" filter="url(#shadow)">
+    <rect width="808" height="126" rx="3" fill="#ef3f4e"/><rect y="113" width="808" height="13" fill="#8b1729"/>
+    <text x="404" y="91" text-anchor="middle" font-family="Arial, sans-serif" font-size="84" font-style="italic" font-weight="900" fill="#fff">AI NEWS</text>
+  </g>
+  <g transform="translate(600 470)" filter="url(#shadow)">
+    <path d="M-154 16q0-148 154-148T154 16v166H-154z" fill="url(#bot)" stroke="#031e4a" stroke-width="11"/>
+    <rect x="-126" y="-70" width="252" height="133" rx="43" fill="#031e4a"/>
+    <circle cx="-59" cy="-1" r="27" fill="#ffd04a"/><circle cx="59" cy="-1" r="27" fill="#ffd04a"/>
+    <circle cx="-59" cy="-1" r="9" fill="#031e4a"/><circle cx="59" cy="-1" r="9" fill="#031e4a"/>
+    <path d="M-57 35q57 46 114 0" fill="none" stroke="#ef3f4e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M0-72v-51" stroke="#031e4a" stroke-width="11" stroke-linecap="round"/><circle cx="0" cy="-142" r="18" fill="#ef3f4e" stroke="#031e4a" stroke-width="8"/>
+    <path d="M-152 90l-100 54M152 90l100 54" stroke="#031e4a" stroke-width="23" stroke-linecap="round"/>
+    <circle cx="-263" cy="147" r="31" fill="#ffd04a" stroke="#031e4a" stroke-width="10"/><circle cx="263" cy="147" r="31" fill="#ffd04a" stroke="#031e4a" stroke-width="10"/>
+    <path d="M-54 182v68M54 182v68" stroke="#031e4a" stroke-width="24" stroke-linecap="round"/>
+    <path d="M-91 254h67M24 254h67" stroke="#ef3f4e" stroke-width="20" stroke-linecap="round"/>
+    <text x="0" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#fff">BREAKING: I HAVE A THEORY</text>
+  </g>
+  <g transform="translate(67 390)" filter="url(#shadow)">
+    <rect width="245" height="142" rx="18" fill="#fffdf3" stroke="#031e4a" stroke-width="8" transform="rotate(-7)"/>
+    <text x="27" y="54" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#ef3f4e" transform="rotate(-7)">HOT TAKE</text>
+    <text x="26" y="91" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#031e4a" transform="rotate(-7)">AI can summarize</text>
+    <text x="39" y="122" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#087b9c" transform="rotate(-7)">this headline.</text>
+  </g>
+  <text x="600" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#a8fff0">SMART MACHINES, STRANGE PREDICTIONS, BIG HEADLINES</text>
+</svg>

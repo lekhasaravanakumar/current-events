@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Breaking AI News</title>
+  <desc id="desc">A playful breaking-news graphic with a blue world map, oversized headline, and a smiling robot globe mascot.</desc>
+  <defs>
+    <radialGradient id="blue" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#1769dc"/>
+      <stop offset=".62" stop-color="#073b9c"/>
+      <stop offset="1" stop-color="#031d56"/>
+    </radialGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff4057"/>
+      <stop offset="1" stop-color="#c40028"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-30%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#00143e" flood-opacity=".65"/>
+    </filter>
+    <pattern id="scan" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 1h14" stroke="#93c8ff" stroke-width="2" opacity=".09"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#blue)"/>
+  <rect width="1200" height="760" fill="url(#scan)"/>
+
+  <!-- Abstract world map made from broadcast lines. -->
+  <g fill="none" stroke="#061d55" stroke-width="6" stroke-linecap="round" opacity=".9">
+    <path d="M72 120h195M46 142h276M89 164h216M28 186h248M67 208h210M99 230h169"/>
+    <path d="M324 74h155M301 97h193M279 120h191M298 143h167M319 166h137M341 189h102M362 212h74"/>
+    <path d="M513 132h146M487 154h190M470 176h226M484 198h203M511 220h182M543 242h139"/>
+    <path d="M773 90h156M748 112h201M727 134h216M739 156h188M767 178h161M801 200h129"/>
+    <path d="M1002 108h123M980 130h176M967 152h189M985 174h170M1017 196h126M1043 218h82"/>
+    <path d="M145 570h198M110 592h263M87 614h288M115 636h239M151 658h162"/>
+    <path d="M445 522h165M423 544h216M411 566h237M434 588h195M461 610h145"/>
+    <path d="M752 542h199M727 564h250M709 586h280M735 608h244M778 630h176"/>
+  </g>
+
+  <g fill="#4ba5ff" opacity=".28">
+    <circle cx="94" cy="86" r="7"/><circle cx="1080" cy="86" r="5"/><circle cx="1090" cy="270" r="8"/>
+    <circle cx="108" cy="504" r="5"/><circle cx="1050" cy="520" r="6"/><circle cx="670" cy="80" r="5"/>
+  </g>
+
+  <g transform="translate(198 186) skewX(-6)" filter="url(#drop)">
+    <rect width="804" height="130" rx="4" fill="url(#red)"/>
+    <rect y="116" width="804" height="14" fill="#7b001d" opacity=".8"/>
+    <text x="402" y="94" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="88" font-style="italic" font-weight="900" letter-spacing="3" fill="#fff">BREAKING</text>
+  </g>
+
+  <g filter="url(#drop)">
+    <text x="600" y="500" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="245" font-style="italic" font-weight="900" letter-spacing="-8" fill="#fff">NEWS</text>
+    <text x="603" y="507" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="245" font-style="italic" font-weight="900" letter-spacing="-8" fill="none" stroke="#b9e4ff" stroke-width="4" opacity=".65">NEWS</text>
+  </g>
+
+  <!-- A silly AI correspondent interrupts the headline. -->
+  <g transform="translate(815 425) rotate(8)" filter="url(#drop)">
+    <path d="M-94 42q-7-132 102-143 111 10 99 143z" fill="#40d9c5" stroke="#041d55" stroke-width="10"/>
+    <path d="M-67-40q74-69 143 0" fill="none" stroke="#a7fff0" stroke-width="9" opacity=".8"/>
+    <rect x="-69" y="-35" width="144" height="83" rx="28" fill="#041d55"/>
+    <circle cx="-32" cy="5" r="17" fill="#ffd34e"/>
+    <circle cx="38" cy="5" r="17" fill="#ffd34e"/>
+    <circle cx="-32" cy="5" r="6" fill="#041d55"/><circle cx="38" cy="5" r="6" fill="#041d55"/>
+    <path d="M-27 28q29 25 58 0" fill="none" stroke="#ff4960" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0-36v-35" stroke="#041d55" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="-82" r="12" fill="#ff4960" stroke="#041d55" stroke-width="6"/>
+    <path d="M-92 64l-62 46M91 64l54 38" stroke="#041d55" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="-165" cy="119" r="21" fill="#ffd34e" stroke="#041d55" stroke-width="8"/>
+    <circle cx="154" cy="106" r="21" fill="#ffd34e" stroke="#041d55" stroke-width="8"/>
+    <path d="M-45 83q45 22 89 0" fill="none" stroke="#ff4960" stroke-width="10" stroke-linecap="round"/>
+    <text x="-5" y="145" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#fff">I READ THE COMMENTS</text>
+  </g>
+
+  <g transform="translate(70 690)">
+    <circle cx="12" cy="0" r="7" fill="#ffd34e"/>
+    <text x="32" y="8" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#b9e4ff">WORLD NEWS, AI NEWS, AND ONE VERY CONFUSED ROBOT</text>
+  </g>
+</svg>
